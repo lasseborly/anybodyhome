@@ -1,8 +1,8 @@
 name = "Anybody Home"
 license = "MIT"
 licenselink = "https://github.com/lasseborly/anybodyhome/blob/master/LICENSE.md"
-description = "A simple theme for simple people"
-homepage = "http://anybodyhome.github.io/"
+description = "A simple theme for simple people with simeple needs"
+homepage = "https:/blog.lasseborly.dk/"
 tags = ["clean", "simple"]
 features = ["", ""]
 min_version = 0.16
