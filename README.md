@@ -1,8 +1,10 @@
 # Anybody Home?
 
+![anybodyhome](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Anybody Home?")
+
 A simple theme for simple people with simple needs.
 
-The focus of the theme is using as few dependencies as possible to keep the layout simple and bloat free.
+The focus of the theme is to use as few dependencies as possible to keep the layout simple and bloat free.
 
 ## Features
 * __Blog only__ - Only a list of the 10 most recent posts and added pagination. There is no other pages than the main page and the post page.

@@ -1,0 +1,7 @@
+theme = "anybodyhome"
+baseurl = "https://hugosite.com"
+languageCode = "en-us"
+title = "Anybody Home?"
+
+[params]
+	subtitle = "The Simple Folk"
