@@ -1,6 +1,6 @@
 # Anybody Home?
 
-![anybodyhome](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Anybody Home?")
+![anybodyhome](https://github.com/lasseborly/anybodyhome/blob/master/images/screenshot.png "Anybody Home?")
 
 A simple theme for simple people with simple needs.
 
