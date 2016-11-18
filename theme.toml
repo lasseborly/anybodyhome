@@ -9,9 +9,9 @@ min_version = 0.16
 
 [author]
   name = "Lasse Borly <contact@lasseborly.dk"
-  homepage = "https://lasseborly.dk"
+  homepage = "https://lasseborly.dk/"
 
 [original]
   author =  "bastard"
-  homepage = "https://github.com/lasseborly/bastard"
-  repo = "https://github.com/lasseborly/bastard"
+  homepage = "https://github.com/lasseborly/bastard/"
+  repo = "https://github.com/lasseborly/bastard/"
