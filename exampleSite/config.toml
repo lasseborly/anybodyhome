@@ -1,5 +1,5 @@
 theme = "anybodyhome"
-baseurl = "https://hugosite.com"
+baseurl = "https://hugosite.com/"
 languageCode = "en-us"
 title = "Anybody Home?"
 
