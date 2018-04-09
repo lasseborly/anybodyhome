@@ -4,8 +4,6 @@
 
 A simple theme for simple people with simple needs.
 
-The focus of the theme is to use as few dependencies as possible to keep the layout simple and bloat free.
-
 ## Features
 * __Blog only__ - Only a list of the 10 most recent posts and added pagination. There is no other pages than the main page and the post page.
 * [__Highlight.js__](https://highlightjs.org/) - For all of you code needs.
@@ -36,14 +34,3 @@ title = "Anybody Home?"
 [params]
   subtitle = "A Simple Theme"
 ```
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch - `git checkout -b my-new-feature-or-fix`
-3. Commit your changes - `git commit -am 'Add some feature-or-fix'`
-4. Push to the branch - `git push origin my-new-feature-or-fix`
-5. Create new Pull Request
-
-## Extra
-Take a look at my [docker setup](https://github.com/lasseborly/hugo-development) for developing with Hugo. It's, again, very simple, straight forward and open for contributions.
