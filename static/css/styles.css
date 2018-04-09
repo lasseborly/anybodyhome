@@ -6,13 +6,21 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #000;
 }
 
-@media(max-width: 600px) {
+main {
+  flex: 1;
+}
+
+@media(max-device-width: 667px) {
   body {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 0 80px;
   }
 }
 
@@ -22,7 +30,7 @@ a {
 }
 
 a:visited {
-  color: #000;
+  color: #333;
 }
 
 a:hover {
@@ -33,6 +41,13 @@ p {
   line-height: 1.4;
   text-align: justify;
 }
+
+@media(max-device-width: 667px) {
+  p {
+    font-size: 3em;
+  }
+}
+
 
 img {
   max-width: 100%;
@@ -46,8 +61,14 @@ section#header h1 {
   font-size: 2em;
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 2em;
   margin: 0 0 9px 0;
+}
+
+@media(max-device-width: 667px) {
+  section#header h1 {
+    font-size: 6em;
+    margin: 0 0 30px 0;
+  }
 }
 
 section#header h2 {
@@ -56,13 +77,19 @@ section#header h2 {
   text-align: center;
 }
 
+@media(max-device-width: 667px) {
+  section#header h2 {
+    font-size: 1.5em;
+  }
+}
+
 section.summary {
   padding: 0 0 0 10px;
   border-left: 1px solid black;
   margin: 0 0 60px 0;
 }
 
-@media(max-width: 600px) {
+@media(max-device-width: 667px) {
   section.summary {
     padding: 0 0 0 0;
     border-left: 0px solid black;
@@ -76,6 +103,13 @@ section.summary article {
 section h2 {
   font-size: 1.3em;
   font-family: 'Lobster', cursive;
+}
+
+@media(max-device-width: 667px) {
+  section h2 {
+    font-size: 4em;
+    padding-bottom: 5px;
+  }
 }
 
 section h2 a {
@@ -95,6 +129,13 @@ section article {
 section#paginator {
   margin: 0 0 140px 0;
   font-family: 'Lobster', cursive;
+}
+
+@media(max-device-width: 667px) {
+  section#paginator {
+    font-size: 5em;
+    padding-bottom: 60px;
+  }
 }
 
 section#paginator #next {

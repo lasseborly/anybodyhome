@@ -4,11 +4,11 @@
 
 {{ partial "header.html" . }}
 
-<section>
+<main>
   {{ range (.Paginator 5).Pages }} 
     {{ .Render "summary" }}
   {{ end }}
-</section>
+</main>
 
 {{ partial "paginator.html" . }}
 
