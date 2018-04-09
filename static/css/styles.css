@@ -83,9 +83,9 @@ section h2 a {
 }
 
 section time {
+  font-family: 'Cutive Mono', monospace;
   margin: 0 0 0 2px;
-  font-size: 0.7em;
-  font-weight: 600;
+  font-size: 0.8em;
 }
 
 section article {
