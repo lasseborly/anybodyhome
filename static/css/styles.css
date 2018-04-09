@@ -34,6 +34,10 @@ p {
   text-align: justify;
 }
 
+img {
+  max-width: 100%;
+}
+
 section#header {
   margin: 40px 0;
 }
